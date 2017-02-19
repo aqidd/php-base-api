@@ -8,7 +8,7 @@
 
 		public function generateToken()
 		{
-			return str_random(64);
+			return uniqid();
 		}
 	}
 
